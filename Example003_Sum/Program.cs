@@ -1,5 +1,7 @@
 ﻿// Сумма 2 чисел
-int numberA=31;
-int numberB=5;
+int numberA=new Random().Next(1,10); //1,2,3...9
+Console.WriteLine(numberA);
+int numberB=new Random().Next(1,10);
+Console.WriteLine(numberA);
 int result=numberA+numberB;
 Console.WriteLine(result);
